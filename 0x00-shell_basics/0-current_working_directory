@@ -1,1 +1,13 @@
-pwd
+#!/bin/bash
+
+LOCAL_DIR=$(pwd) # Here is your current path, e.g: /home/youruser
+
+A_FULL_PATH_THAT_IS_IS_THE_SAME_PLACE_AS_YOU=$(pwd)/theotherbinaryyouwanttorun.sh 
+
+A_EXECUTABLE_SOMEHERE=$(/usr/local/bin/executable.sh)
+
+Or, you can export the path to actually access the location of the new executable, e.g:
+
+If you have an executable on /var/log/executable (bad idea, but whatever), you could:
+
+export PATH=$PATH:/var/log/
