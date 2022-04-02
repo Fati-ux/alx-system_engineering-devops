@@ -1,5 +1,2 @@
 #!/bin/bash
 LOCAL_DIR=$(pwd) 
-
-
-
